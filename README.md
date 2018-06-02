@@ -2,9 +2,8 @@
 In On this project, we will read some news videos of new anchor talking and change it into the frame images of the lip for [for this project]()
 
 # Dlib-lip-detection
-Developed by [Davis King](https://github.com/davisking), dlib is a cross-platform package for various image processing tasks.
-For computer vision purpose, dlib has quite useful implementations, including:
-
+Developed by [Davis King](https://github.com/davisking), dlib is a python package for various image processing tasks.
+dlib has quite useful implementations for computer vision, including:
 * Facial landmark detection
 * Correlation tracking
 * Deep metric learning
