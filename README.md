@@ -22,11 +22,13 @@ This will automatically install the required libraries for our project and its d
 
 # Detecting Lips on given image
 ## Facial landmarks on dlib
-The facial landmark detector for our project produces 68 (x, y)-coordinates that map to the specific facial structures. These are trained by the [iBUG-300W dataset](https://ibug.doc.ic.ac.uk/resources/facial-point-annotations/)
+The facial landmark detector for our project produces 68 (x, y)-coordinates that map to the specific facial structures. These are trained by the [iBUG-300W dataset](https://ibug.doc.ic.ac.uk/resources/facial-point-annotations/). You can download the pretrained landmark detector model from the [detector folder](https://github.com/skaws2003/Dlib-lip-detection/tree/master/detector) on this repository
 
 Below, we can see what the 68 facial landmarks are. 
 ![facial_landmarks](./captures/facial_landmarks.jpg)
 from this image, we might see lip is corresponding to the landmark number [48,68].
+
+
 
 ## Detecting facial landmarks
 ### Preparing for detection
@@ -50,7 +52,7 @@ RESIZE = (64,64)                # Final image size
 logfile = open(LOG_PATH,'w')
 # Face detector and landmark detector
 face_detector = dlib.get_frontal_face_detector()   
-landmark_detector = dlib.shape_predictor("shape_predictor_68_face_landmarks.dat")
+landmark_detector = dlib.shape_predictor("shape_predictor_68_face_landmarks.dat")	# Landmark detector path
 ~~~
 
 
