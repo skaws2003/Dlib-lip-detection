@@ -26,7 +26,7 @@ The facial landmark detector for our project produces 68 (x, y)-coordinates that
 
 Below, we can see what the 68 facial landmarks are. 
 ![facial_landmarks](./captures/facial_landmarks.jpg)
-from this image, we might see lip is corresponding to the landmark number [48,68].
+from this image, we might see lip is corresponding to the landmark number [49,68].
 
 
 
